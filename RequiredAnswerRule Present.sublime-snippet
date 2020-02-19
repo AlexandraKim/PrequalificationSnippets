@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+<RequiredAnswerRule AnswerMap="$1" ${2:Absent="${3:N}"} Present="$4">
+	<SignalCase Condition="$4">
+		<ResultExplanation>$5</ResultExplanation>
+	</SignalCase>
+</RequiredAnswerRule>
+$0
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>rqre</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

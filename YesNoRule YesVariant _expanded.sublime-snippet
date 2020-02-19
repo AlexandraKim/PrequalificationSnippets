@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+<YesNoRule YesVariant="$1"> 
+	<YesNoRule.AnswerMap>
+		$0
+	</YesNoRule.AnswerMap>
+	<SignalCase Condition="$1">
+		<ResultExplanation>$2</ResultExplanation>
+	</SignalCase>
+</YesNoRule>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ynye</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

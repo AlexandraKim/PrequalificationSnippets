@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+<IsValueInSetRule AnswerMap="$1">
+	<IsValueInSetRule.Values>
+		<System:String>$2</System:String>
+	</IsValueInSetRule.Values>
+</IsValueInSetRule>
+$0
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>inset</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+<Forms:VisibilityRulesGroup>
+	<Forms:VisibilityRulesGroup.IsVisible>
+		$1
+	</Forms:VisibilityRulesGroup.IsVisible>
+	<Forms:VisibilityRule Question="$0" />
+</Forms:VisibilityRulesGroup>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>vsbe</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

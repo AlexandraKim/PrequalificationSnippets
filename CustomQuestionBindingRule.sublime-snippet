@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+<Policy:CustomQuestionBindingRule AnswerMap="$1" CustomDropdown="True">
+	<Policy:CustomQuestionBindingRule.Options>
+		<System:String>$2</System:String>
+	</Policy:CustomQuestionBindingRule.Options>${0:
+	<Policy:CustomQuestionBindingRule.DatumKeyOptions>
+		<DatumKey Map="" />
+	</Policy:CustomQuestionBindingRule.DatumKeyOptions>}
+</Policy:CustomQuestionBindingRule>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>custom</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

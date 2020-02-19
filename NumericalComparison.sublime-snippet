@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+<NumericalComparison AnswerMap="$1" ${2:Min="$3"} ${4:Max="$0"} CanBeEqualToMinimum="${5:True}" CanBeEqualToMaximum="${6:True}"/>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>numc</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+<NumericalRule>	
+	<NumericalRule.AnswerMap>
+		<CountDatumKey ComplexMap="$1" />
+	</NumericalRule.AnswerMap>
+	<Range Max="$2" Result="${3:N}" />
+	<NumericalRule.Signals>
+		<SignalCase Condition="${3:N}">
+			<ResultExplanation>$0</ResultExplanation>
+		</SignalCase>
+	</NumericalRule.Signals>
+</NumericalRule>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>numr</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
