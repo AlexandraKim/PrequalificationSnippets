@@ -1,3 +1,4 @@
+# PrequalificationSnippets
 This is a collection of snippets for development of prequalifiction logic in Sublime 3
 
 ## Installation
